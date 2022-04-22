@@ -55,7 +55,7 @@ const promptUser = () => {
     type: 'checkbox',
     name: 'license',
     message: 'Select a License',
-    choices: [],
+    choices: ['Apache', 'MIT', 'GPL', 'BSD'],
     when: ({ confirmLicense }) => confirmLicense
 },
 {
